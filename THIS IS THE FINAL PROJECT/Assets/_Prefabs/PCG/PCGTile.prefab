@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 012436597e9983b4ab3ed5c618189bfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorRuleTile: {fileID: 11400000, guid: 4472f7a46079e194ec1c594f54a61f8e, type: 2}
-  backgroundTile: {fileID: 11400000, guid: 6e618aeb7da5f914acbdaa9d26a456f4, type: 2}
+  floorRuleTile: {fileID: 11400000, guid: d10210eea231587ee9ef3ae4a7ce8d98, type: 2}
+  backgroundTile: {fileID: 11400000, guid: 9cd059fc4491729a0cd6b50a4fdfbc80, type: 2}
   bounds:
     m_Position: {x: -50, y: -50, z: 0}
     m_Size: {x: 200, y: 200, z: 1}
