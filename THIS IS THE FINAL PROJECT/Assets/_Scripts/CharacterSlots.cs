@@ -16,7 +16,6 @@ public class CharacterSlots : MonoBehaviour
     [HideInInspector] public bool hasCharacter;
 
     public void changeCharacter(Sprite _profilePic,
-        Sprite _weaponPic,
         int _level,
         string _charName,
         string _weaponName,
@@ -27,7 +26,6 @@ public class CharacterSlots : MonoBehaviour
     {
         profilePic.sprite = _profilePic;
         profilePic.preserveAspect = true;
-        weaponPic.sprite = _weaponPic;
         weaponPic.preserveAspect = true;
         level.text = _level.ToString();
         charName.text = "NAME: " + _charName;

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
+    [Header("Important must assign")]
+    public Item item;
+
     [Header("Stats")]
     public int damage;
     public int armorPenetration;

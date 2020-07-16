@@ -14,7 +14,6 @@ public class PlayerHandlerManager : MonoBehaviour
         Character.name = character.name;
         InventoryManager.Instance.EquipCharacter(Character);
         GetComponent<PlayerMovement>().changeStatHandler();
-        GetComponent<WeaponHandlerPlayer>().changeHand(GetComponent<PlayerMovement>().statHandler.Hand);
         GetComponent<AbilityManager>().Abilities = Character.GetComponent<StatHandler>().abilities;
         CanvasManager.Instance.updateUI(Character);
     }   

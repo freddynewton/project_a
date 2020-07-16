@@ -7,7 +7,7 @@ public class Interactable : MonoBehaviour
     [HideInInspector] public Transform player;
     private bool hasInteracted = false;
 
-    private void Awake()
+    private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }

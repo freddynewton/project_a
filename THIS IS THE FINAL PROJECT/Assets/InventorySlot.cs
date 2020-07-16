@@ -26,7 +26,7 @@ public class InventorySlot : MonoBehaviour, IDragHandler, IEndDragHandler
         icon.preserveAspect = true;
         removeButton.interactable = true;
         if (isWeaponSlot)
-            InventoryManager.Instance.characters[charSlot.charID].GetComponent<StatHandler>().setWeapon(item);
+            InventoryManager.Instance.characters[charSlot.charID].GetComponent<StatHandler>().setWeapon((WeaponItem)item);
     }
 
     public void ClearSlot()

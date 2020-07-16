@@ -59,7 +59,6 @@ public class InventoryManager : MonoBehaviour
                 weaponName = stat.Weapon.name;
 
             CanvasManager.Instance.Characters[i].changeCharacter(stat.GFX.GetComponent<SpriteRenderer>().sprite,
-                stat.Hand.GetComponent<SpriteRenderer>().sprite,
                 stat.level,
                 stat.name,
                 weaponName,
@@ -74,6 +73,7 @@ public class InventoryManager : MonoBehaviour
     {
         if (!characters.Contains(character) && characters.Count < 3)
         {
+            character.GetComponent<StatHandler>().isEnemy = false;
             characters.Add(character);
         }
     }

@@ -6,7 +6,6 @@ public abstract class Staff : Weapon
 {
     [Header("Staff Stats")]
 
-
     [Header("Projectile")]
     public GameObject bullet;
     public float bulletLifeDuration;
