@@ -11,7 +11,6 @@ ScriptsOnlyBuild:
     - GhostEffect
     - InventoryManager
     - InventorySlot
-    - Item
     - ItemPickup
     - PCGTile
     - PlayerHandlerManager
@@ -19,6 +18,7 @@ ScriptsOnlyBuild:
     - StatHandler
     - TilemapPCGHandler
     - WeaponHandlerPlayer
+    - WeaponItem
     - defaultStaff
     - defaultStaffProjectile
     NavMeshComponents.dll:
@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.PixelPerfectCamera
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -92,10 +93,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -219,97 +218,97 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 13020}
     - Class: 114
-      Script: {instanceID: 13112}
+      Script: {instanceID: 13092}
     - Class: 114
-      Script: {instanceID: 13180}
+      Script: {instanceID: 13114}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13482}
+      Script: {instanceID: 13484}
     - Class: 114
-      Script: {instanceID: 13538}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 13630}
+      Script: {instanceID: 13632}
     - Class: 114
-      Script: {instanceID: 13796}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 13958}
+      Script: {instanceID: 13960}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14234}
+      Script: {instanceID: 14236}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 14374}
     - Class: 114
-      Script: {instanceID: 14416}
+      Script: {instanceID: 14418}
     - Class: 114
-      Script: {instanceID: 14536}
+      Script: {instanceID: 14538}
     - Class: 114
-      Script: {instanceID: 14544}
+      Script: {instanceID: 14546}
     - Class: 114
-      Script: {instanceID: 14648}
+      Script: {instanceID: 14650}
     - Class: 114
-      Script: {instanceID: 14738}
+      Script: {instanceID: 14740}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14746}
     - Class: 114
-      Script: {instanceID: 14764}
+      Script: {instanceID: 14766}
     - Class: 114
-      Script: {instanceID: 14770}
+      Script: {instanceID: 14772}
     - Class: 114
-      Script: {instanceID: 14938}
+      Script: {instanceID: 14940}
     - Class: 114
-      Script: {instanceID: 14984}
+      Script: {instanceID: 14986}
     - Class: 114
-      Script: {instanceID: 14996}
+      Script: {instanceID: 14998}
     - Class: 114
-      Script: {instanceID: 15266}
+      Script: {instanceID: 15268}
     - Class: 114
-      Script: {instanceID: 15284}
+      Script: {instanceID: 15286}
     - Class: 114
-      Script: {instanceID: 15306}
+      Script: {instanceID: 15308}
     - Class: 114
-      Script: {instanceID: 15354}
+      Script: {instanceID: 15356}
     - Class: 114
-      Script: {instanceID: 15422}
+      Script: {instanceID: 15424}
     - Class: 114
-      Script: {instanceID: 15522}
+      Script: {instanceID: 15524}
     - Class: 114
-      Script: {instanceID: 15564}
+      Script: {instanceID: 15566}
     - Class: 114
-      Script: {instanceID: 15772}
+      Script: {instanceID: 15774}
     - Class: 114
-      Script: {instanceID: 15802}
+      Script: {instanceID: 15804}
     - Class: 114
-      Script: {instanceID: 15868}
+      Script: {instanceID: 15870}
     - Class: 114
-      Script: {instanceID: 15936}
+      Script: {instanceID: 15938}
     - Class: 114
-      Script: {instanceID: 16136}
+      Script: {instanceID: 16138}
     - Class: 114
-      Script: {instanceID: 16192}
+      Script: {instanceID: 16194}
     - Class: 114
-      Script: {instanceID: 16336}
+      Script: {instanceID: 16338}
     - Class: 114
-      Script: {instanceID: 16472}
+      Script: {instanceID: 16474}
     - Class: 114
-      Script: {instanceID: 16476}
+      Script: {instanceID: 16478}
     - Class: 114
-      Script: {instanceID: 16520}
+      Script: {instanceID: 16522}
     - Class: 114
-      Script: {instanceID: 16524}
+      Script: {instanceID: 16526}
     - Class: 114
-      Script: {instanceID: 16552}
+      Script: {instanceID: 16554}
     - Class: 114
-      Script: {instanceID: 16656}
+      Script: {instanceID: 16658}
     - Class: 114
-      Script: {instanceID: 16706}
+      Script: {instanceID: 16708}
     - Class: 114
-      Script: {instanceID: 16712}
+      Script: {instanceID: 16714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -599,7 +598,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 1ee1b94839e79f192f08ecc66bd68bff
+      Hash: 824d3c24e2b579b0ab4abe0558c14144
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InventorySlot
@@ -791,6 +790,12 @@ ScriptsOnlyBuild:
     className: GeneralAdvancedTechniques
   - hash:
       serializedVersion: 2
+      Hash: 4817aed04dba18655ebf18bd85c9bde1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WeaponItem
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -881,7 +886,7 @@ ScriptsOnlyBuild:
     className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 86adcb85b0be81785665e999457c71c7
+      Hash: 8dd30b047806beaded72ebed94a66743
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Item
@@ -953,7 +958,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
-      Hash: 8b5cef2beca898d39e2c8585b7a85348
+      Hash: 93482a8e6b1616c0f348c32965fff6e4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WeaponHandlerPlayer
@@ -1067,13 +1072,13 @@ ScriptsOnlyBuild:
     className: TestingZLegacy
   - hash:
       serializedVersion: 2
-      Hash: f3980fe9b68da21d41f42ea380f5c10c
+      Hash: 3deadd8eea2b2f072963c697221e0196
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterSlots
   - hash:
       serializedVersion: 2
-      Hash: d6977d8fb9fd2f0e7019ba7f02122f32
+      Hash: 6be5a12628f2c6d5ed378200bd754875
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CanvasManager
@@ -1265,7 +1270,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: d960c6270020dcef815586741ceeda52
+      Hash: 24d0104edc454e7291b2b8832194e15a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: defaultStaff
@@ -1349,7 +1354,7 @@ ScriptsOnlyBuild:
     className: AbilityManager
   - hash:
       serializedVersion: 2
-      Hash: 77b14c18e5c2e2ecee217a7461c40a4e
+      Hash: b5f5d933ac4c2463961164615d1bf241
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StatHandler

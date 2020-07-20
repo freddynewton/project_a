@@ -9,7 +9,7 @@ public class WeaponHandlerPlayer : MonoBehaviour
 
     private void Update()
     {
-        if (stat.WeaponObject != null)
+        if (stat != null && stat.WeaponObject != null)
         {
             weaponScript.updateWeapon();
         }
@@ -22,7 +22,7 @@ public class WeaponHandlerPlayer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (stat.WeaponObject != null)
+        if (stat != null && stat.WeaponObject != null)
         {
             lookAtMouse();
         }

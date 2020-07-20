@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   width: 30
-  height: 20
+  height: 30
   seed: Freddy
   useRandomSeed: 1
-  randomFillPercent: 42
+  randomFillPercent: 48
   roomThresholdSize: 15
   wallThresholdSize: 0
   passagewaySize: 7

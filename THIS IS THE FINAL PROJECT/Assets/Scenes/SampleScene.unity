@@ -2057,6 +2057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9be7829aacaf364eae4d4bb723f9799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: -1}
 --- !u!114 &519420034
@@ -2635,6 +2636,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp Item (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 952885281271111445, guid: 10da531b2e1f30a4eab2766a3f417a58,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 952885281271111446, guid: 10da531b2e1f30a4eab2766a3f417a58,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26786,6 +26792,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp Item
       objectReference: {fileID: 0}
+    - target: {fileID: 952885281271111445, guid: 10da531b2e1f30a4eab2766a3f417a58,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 952885281271111446, guid: 10da531b2e1f30a4eab2766a3f417a58,
         type: 3}
       propertyPath: m_LocalPosition.x

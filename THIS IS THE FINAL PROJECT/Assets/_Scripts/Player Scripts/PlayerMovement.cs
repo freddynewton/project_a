@@ -31,11 +31,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void changeStatHandler()
-    {
-        statHandler = PlayerHandlerManager.Instance.Character.GetComponent<StatHandler>();
-    }
-
     private void LookAtMouse()
     {
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -45,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
             statHandler.GFX.transform.rotation = Quaternion.Slerp(statHandler.GFX.transform.rotation, Quaternion.Euler(0, 0, 0), 0.1f);
     }
 
+    /*
     private void Dash()
     {
         if (statHandler.dashTime <= 0 && Input.GetKeyDown(KeyCode.Space))
@@ -72,6 +68,8 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    */
+
     private void InputProcess()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
@@ -90,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
         // Check if the payer is dashing
         if (!statHandler.canInteract)
         {
-            rb.velocity = inputVector * statHandler.moveSpeed;
+            rb.velocity = inputVector * statHandler.stats.moveSpeed;
            // rb.MovePosition(rb.position + inputVector * statHandler.moveSpeed * Time.deltaTime);
         }
     }
