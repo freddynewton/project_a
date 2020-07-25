@@ -4,10 +4,17 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
+    public enum WeaponTypeEnum
+    {
+        range,
+        melee
+    }
+
     [Header("Important must assign")]
     public Item item;
 
     [Header("Stats")]
+    public WeaponTypeEnum weaponType;
     public int damage;
     public int armorPenetration;
     public float attackRate;

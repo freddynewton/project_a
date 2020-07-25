@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public abstract class State : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Action[] actions;
+    public int cost;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public abstract bool evaluate(FSM fsm);
 }
