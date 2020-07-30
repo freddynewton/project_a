@@ -19,18 +19,22 @@ public class UtilityAI : MonoBehaviour
 
     [HideInInspector] public StatHandler statHandler;
     [HideInInspector] public NavMeshAgent navMeshAgent;
+    [HideInInspector] public InputManager inputManager;
 
     private void Start()
     {
         statHandler = gameObject.GetComponent<StatHandler>();
         navMeshAgent = gameObject.GetComponent<NavMeshAgent>();
+        inputManager = gameObject.GetComponent<InputManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(selfDanger);
-        Debug.Log("Health %: " + statHandler.currentHealth / statHandler.stats.Health);
+        if (statHandler.isEnemy)
+        {
+
+        }
     }
 
     private void Awake()
@@ -43,7 +47,6 @@ public class UtilityAI : MonoBehaviour
         yield return new WaitForSeconds(1);
         while (true)
         {
-            Debug.Log("calc stats");
             calculateStats();
             
             yield return new WaitForSeconds(calculateDataRate);

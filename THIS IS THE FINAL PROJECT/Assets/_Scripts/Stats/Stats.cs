@@ -22,8 +22,11 @@ public class Stats : ScriptableObject
     public float baseCoolDown = 1.0f;
 
     [Header("Abilities")]
-    public Ability[] abilities;
-
+    public Action qAction;
+    public Action rAction;
+    public Action fAction;
+    public Action spacebarAction;
+   
     [Header("Enemy Stats")]
     public int deathExpPoint = 1;
 }
